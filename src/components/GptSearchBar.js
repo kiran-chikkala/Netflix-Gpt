@@ -24,7 +24,7 @@ const GptSearchBar = () => {
           value={text}
           type="text"
           onChange={(e) => settext(e.target.value)}
-          className=" p-4 m-4 col-span-9"
+          className=" p-3 md:p-4 m-4 col-span-9 outline-none"
           placeholder={lang[langKey].gptSearchPlaceholder}
         />
         <button
